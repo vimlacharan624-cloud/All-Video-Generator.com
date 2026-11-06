@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aal AI Video Generator</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10152b;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 25px;
+      background: #202b50;
+    }
+    h1 { color: #64d8ff; }
+    main { padding: 35px 15px; }
+    textarea {
+      width: 90%;
+      max-width: 500px;
+      height: 120px;
+      padding: 12px;
+      border-radius: 12px;
+      font-size: 16px;
+    }
+    button {
+      margin: 15px;
+      padding: 14px 25px;
+      border: 0;
+      border-radius: 10px;
+      background: #684bff;
+      color: white;
+      font-size: 17px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aal AI Video Generator</h1>
+    <p>Create Your Videos With AI</p>
+  </header>
+  <main>
+    <h2>अपना वीडियो बनाएँ</h2>
+    <textarea placeholder="अपने वीडियो का आइडिया लिखें..."></textarea>
+    <br>
+    <button>Generate Video</button>
+    <p>Welcome to Aal AI Video Generator!</p>
+  </main>
+</body>
+</html>
